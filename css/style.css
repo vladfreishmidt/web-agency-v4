@@ -421,17 +421,17 @@ h2 {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     background-blend-mode: screen; }
     .pricing__image--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../../img/package-item-bg-1.jpg);
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/package-item-bg-1.jpg);
       background-size: cover; }
       .pricing__image--1 h3 {
         background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
     .pricing__image--2 {
-      background-image: linear-gradient(to right bottom, #2998ff, #e4ac8d), url(../../img/package-item-bg-2.jpg);
+      background-image: linear-gradient(to right bottom, #2998ff, #e4ac8d), url(../img/package-item-bg-2.jpg);
       background-size: cover; }
       .pricing__image--2 h3 {
         background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(228, 172, 141, 0.85)); }
     .pricing__image--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../../img/package-item-bg-3.jpg);
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/package-item-bg-3.jpg);
       background-size: cover; }
       .pricing__image--3 h3 {
         background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
