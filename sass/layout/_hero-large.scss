@@ -1,0 +1,38 @@
+.hero {
+    height: 75vh;
+    position: relative;
+
+    &__text-box {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .btn {
+            align-self: center;
+        }
+    }
+
+    h1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    &__text-main {
+        font-size: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    &__text-sub {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+}

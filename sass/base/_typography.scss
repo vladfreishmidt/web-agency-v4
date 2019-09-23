@@ -1,0 +1,24 @@
+:root {
+    --font-heading: 'Source Sans Pro', sans-serif;
+    --font-text: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: var(--font-text);
+    color: var(--color-text);
+}
+
+h1, h2 {
+    font-family: var(--font-heading);
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin: 1rem 0 5rem;
+    text-align: center;
+
+    color: var(--color-heading);
+}
+
+

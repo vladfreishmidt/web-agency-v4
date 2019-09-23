@@ -1,0 +1,89 @@
+:root {
+    // -----------------
+    // COLORS
+    // -----------------
+    --color-primary: rgb(43, 151, 253);
+    --color-primary-light: rgb(118, 184, 245);
+    --color-secondary: ;
+    --color-gradient: ;
+    --color-heading: rgb(77, 77, 77);
+    --color-text: rgb(102, 102, 102);;
+
+    --color-grey-light: #fffbfb;
+    --color-grey-section: rgb(247, 247, 247);
+
+    --color-footer-bg: #3e3e3e;
+
+    // -----------------
+    // FONTS
+    // -----------------
+    // font-family: ;
+
+
+    // -----------------
+    // BOX-SHADOWS
+    // -----------------
+
+    // -----------------
+    // ANIMATIONS
+    // -----------------
+}
+
+
+// -----------------
+// BASE
+// -----------------
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+    background-color: var(--color-grey-light);
+}
+
+section {
+    padding: 5rem 0;
+
+    // &:nth-child(odd) {
+    //     background-color: var(--color-grey-section);
+    // }
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    max-width: 1140px;
+}
+
+
+// BASE 
+@import '../sass/base/typography';
+
+
+// LAYOUT
+@import '../sass/layout/header';
+@import '../sass/layout/navigation';
+@import '../sass/layout/hero-large';
+@import '../sass/layout/footer';
+
+
+// COMPONENTS
+@import '../sass/components/buttons';
+@import '../sass/components/bg-video';
+@import '../sass/components/form';
+
+
+// PAGES
+@import '../sass/pages/home';
