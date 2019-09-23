@@ -237,7 +237,7 @@ h2 {
     padding: 6rem; }
 
 .hero {
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.2)), url(../../img/header-bg.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.2)), url(../img/header-bg.jpg);
   background-size: cover;
   color: #fff;
   letter-spacing: 1px; }
